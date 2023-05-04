@@ -16,11 +16,11 @@ public class Do {
         System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
         System.out.println("Isi Gelas Ketika Penuh : " + penuh + "ml");
         
-        while(isiGelas != Penuh){
+        do {
            isiGelas++;
             System.out.println("Sedang Mengisi Gelas..");
             System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
-        }
+        }while(isiGelas != penuh);
         
         System.out.println("Finale: Isi Gelas Sekarang :" + isiGelas + "ml");
     }
